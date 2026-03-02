@@ -23,3 +23,6 @@ func sub(i int, j int) int {
 func mul(i int, j int, formula string) (int, string) {
 	return i * j, formula
 }
+func div(c, d int) int {
+	return c / d
+}

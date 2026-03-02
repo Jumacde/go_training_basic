@@ -21,4 +21,7 @@ func main() {
 	result, str := mul(i, j, formula)
 	fmt.Printf("\n%s: %d * %d = %d", str, i, j, result)
 
+	c, d := 12, 4
+	fmt.Printf("\n%d / %d = %d", c, d, div(c, d))
+
 }

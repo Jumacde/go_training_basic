@@ -29,4 +29,7 @@ func main() {
 	var f uint = 4
 	fmt.Printf("\n%d mod %d = %d", e, f, mod(e, f))
 
+	// try for loop
+	var test uint = 0
+	fmt.Printf("\nfor loop. i is added until 10. %d", test_for(uint(test)))
 }

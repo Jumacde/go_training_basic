@@ -11,4 +11,14 @@ func main() {
 	result := addition(x, y)
 	fmt.Printf("%d + %d = %d\n", x, y, result)
 
+	a, b := hello_world("hello ", "world")
+	fmt.Print(a, b)
+
+	// values is dedeclared on the other file
+	fmt.Printf("\n%d - %d = %d", i, j, sub(i, j))
+
+	// try combi. diffrent value types on a method and call it.
+	result, str := mul(i, j, formula)
+	fmt.Printf("\n%s: %d * %d = %d", str, i, j, result)
+
 }

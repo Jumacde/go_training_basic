@@ -26,3 +26,8 @@ func mul(i int, j int, formula string) (int, string) {
 func div(c, d int) int {
 	return c / d
 }
+
+// try uint.
+func mod(e, f uint) uint {
+	return e % f
+}

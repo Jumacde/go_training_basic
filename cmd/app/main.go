@@ -24,4 +24,9 @@ func main() {
 	c, d := 12, 4
 	fmt.Printf("\n%d / %d = %d", c, d, div(c, d))
 
+	// try uint
+	var e uint = 17
+	var f uint = 4
+	fmt.Printf("\n%d mod %d = %d", e, f, mod(e, f))
+
 }

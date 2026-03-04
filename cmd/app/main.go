@@ -24,7 +24,7 @@ func main() {
 	c, d := 12, 4
 	fmt.Printf("\n%d / %d = %d", c, d, div(c, d))
 
-	// try uint
+	// try uint1
 	var e uint = 17
 	var f uint = 4
 	fmt.Printf("\n%d mod %d = %d", e, f, mod(e, f))
@@ -32,4 +32,10 @@ func main() {
 	// try for loop
 	var test uint = 0
 	fmt.Printf("\nfor loop. i is added until 10. %d", test_for(uint(test)))
+
+	// try uint2
+	h, g, s, t := 2.0, 4.0, 3.5, 5.6
+	pow1, pow2 := exponentiation(h, g, s, t)
+	fmt.Printf("\n%g ^ %g is %f. %g ^ %g is %f.", h, s, pow1, g, t, pow2)
+
 }

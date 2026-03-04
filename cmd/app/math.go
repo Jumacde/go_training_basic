@@ -31,3 +31,10 @@ func div(c, d int) int {
 func mod(e, f uint) uint {
 	return e % f
 }
+
+// try uint2
+func exponentiation(h, g, s, t float64) (float64, float64) {
+	pow1 := (math.Pow(h, s))
+	pow2 := (math.Pow(g, t))
+	return pow1, pow2
+}

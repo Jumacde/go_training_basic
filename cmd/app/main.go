@@ -38,4 +38,7 @@ func main() {
 	pow1, pow2 := exponentiation(h, g, s, t)
 	fmt.Printf("\n%g ^ %g is %f. %g ^ %g is %f.", h, s, pow1, g, t, pow2)
 
+	// try switch
+	fmt.Print("\n", test_switch())
+
 }
